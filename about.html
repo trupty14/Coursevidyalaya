@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" type="text/css" href="aboutus.css"> -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 3>
+    <title>About Us</title>
+
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    .section {
+        width: 100%;
+        min-height: 100vh;
+        background-color: #ddd;
+    }
+    
+    .content-section {
+        float: left;
+        width: 55%;
+    }
+    
+    .image-section {
+        float: right;
+        width: 40%;
+    }
+    
+    .container {
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 200px;
+    }
+    
+    .image-section img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .content-section .title {
+        text-transform: uppercase;
+        font-size: 28px;
+    }
+    
+    .content-section .content p {
+        margin-top: 10px;
+        font-family: sans-serif;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    
+    .content-section .content .button {
+        margin-top: 30px;
+    }
+    
+    .content-section .content .button a {
+        background-color: #3d3d3d;
+        padding: 12px 40px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 25px;
+        letter-spacing: 1.5px;
+    }
+    
+    .content-section .content .button a:hover {
+        background-color: #a52a2a;
+        color: #fff;
+    }
+    
+    .content-section .social i {
+        color: #a52a2a;
+        font-size: 30px;
+        padding: 30px 10px;
+    }
+    
+    .content-section .social i:hover {
+        color: #3d3d3d;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .container {
+            width: 80%;
+            display: block;
+            margin: auto;
+            padding-top: 150px;
+        }
+        .content-section .title {
+            text-align: center;
+            font-size: 19px;
+        }
+        .content-section .content .button {
+            text-align: center;
+        }
+        .content-section .content .button a {
+            padding: 9px 30px;
+        }
+        .content-section .social {
+            text-align: center;
+        }
+    }
+    /* Navigation Bar CSS */
+    
+    .color {
+        font-style: italic;
+        font-family: cursive;
+        text-decoration-color: rgb(162, 25, 172);
+        text-decoration-line: underline;
+    }
+    
+    .header {
+        margin-left: 5px;
+    }
+    
+    #footerArea {
+        width: 100%;
+        height: 100px;
+        background-color: darkcyan;
+        align-items: center;
+        align-content: center;
+        float: right;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <!-- Nav bar html -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <img src="https://img.icons8.com/fluent/48/000000/student-center.png" />
+            <a class="navbar-brand color" href="#">Coursevidyalya</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="C:\Users\Trupty\OneDrive\Desktop\Coursevidyalaya\index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="C:\Users\Trupty\OneDrive\Desktop\Coursevidyalaya\about.html">About</a>
+                    </li>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Careers
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="C:\Users\Trupty\OneDrive\Desktop\Coursevidyalaya\Engineering.html">Engineering</a></li>
+                            <li><a class="dropdown-item" href="C:\Users\Trupty\OneDrive\Desktop\Coursevidyalaya\Medicals.html">Medical</a></li>
+                            <li><a class="dropdown-item" href="C:\Users\Trupty\OneDrive\Desktop\Coursevidyalaya\LAW.html">Law</a></li>
+                            <li><a class="dropdown-item" href="C:\Users\Trupty\OneDrive\Desktop\Coursevidyalaya\Commerce.html">Commerce</a></li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="C:\Users\Trupty\OneDrive\Desktop\Coursevidyalaya\Writeforus.html">Write for us!</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="C:\Users\Trupty\OneDrive\Desktop\Coursevidyalaya\Contact Us.html">Contact us</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="section">
+        <div class="container">
+            <div class="content-section">
+                <div class="title">
+                    <h1>About Us</h1>
+                </div>
+                <div class="content">
+                    <p>For a country with a population of 136.64 crores, Unemployment has been one of the major factors among the citizens of this country but it's not just about the population, The talent in India needs proper guidance and proper path which
+                        would guide them step by step and lead them to a better future. According to a recent survey nearly 80 percent students in India fail to reach their true potential because of wrong decisions, and here in Coursevidyalay we will
+                        provide you with the first step for a better and bright future, Our aim and motive is to make sure that the students take the best decisions for their future. Make sure you go through our article thoroughly.</p>
+                    <div class="button">
+                        <a href="">Read More</a>
+                    </div>
+                </div>
+                <div class="social">
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="image-section">
+                <img src="https://images.unsplash.com/photo-1512626120412-faf41adb4874?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=900" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
